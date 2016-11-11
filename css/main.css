@@ -1,0 +1,365 @@
+/**************************************************
+Fonts
+Droid Serif
+Droid Sans
+Droid Sans Mono
+
+Font Scaling
+6.854rem
+4.236rem
+2.618rem
+1.618rem
+1.0rem
+0.618rem
+
+Colour scheme
+
+**************************************************/
+@import 'https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono|Droid+Serif';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+       
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    background-color:grey;
+}
+/*************************** 
+DEFAULTS - MOBILE FIRST 
+***************************/
+h1{
+    font: bold 4.236rem 'Prociono', 'Palatino', serif;
+    text-align: center;
+    
+}
+h2{
+    font: bold 2.618rem 'Prociono', 'Georgia', serif;
+    text-align: center;
+}
+li, p, a{
+    font: bold 1.618rem 'Open Sans', 'Arial', sans-serif;
+}
+pre, code, kbd{
+    font: normal 1.0rem 'Open Sans', 'Verdana', 
+}
+/***************************
+    LAYOUT - MOBILE FIRST
+***************************/
+h1{
+    font: bold 4.236rem 'Droid Serif', 'more font stack stuff', serif;
+    text-align: center;
+    
+}
+h2{
+    font: bold 2.618rem 'Droid Serif', 'more font stack stuff', serif;
+    text-align: center;
+}
+li, p, a{
+    font: bold 1.618rem 'Droid Sans', 'more font stack stuff', sans-serif;
+}
+pre, code, kbd{
+    font: normal 1.0rem 'Droid Sans Mono', 'more font stack stuff', 
+}
+
+.wrapper{
+    width: 95%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    background-image: url("https://unsplash.it/1400/300?image=1074");
+    background-position: center;
+    height: 200px;
+    
+}
+nav{
+    width: 100%;
+}
+nav>ul{
+    width: 100%;
+}
+nav li{
+  width: 100%;
+    list-style: none;
+    display: inline-block;
+    float: center;
+}
+nav a,
+nav a:link,
+nav a:visited{
+    display: block;
+    font: bold 1.618rem 'Droid Sans', 'more font stack stuff', sans-serif;
+    text-align: center;
+}
+nav a:active,
+nav a:focus,
+nav a:hover{
+ 
+}
+main{
+    width: 100%;
+}
+.col{
+    float: none;
+    width: 100%;
+}
+.col img{
+    width: 100%;
+    height: 150px;
+    max-width: 100%;
+    background-color: azure;
+    background-image: url("https://unsplash.it/400/300?image=1069");
+    float: left;
+    background-position: center;
+}
+footer{
+    width: 100%;
+}
+
+
+
+
+@media screen and (min-width:600px) and (max-width:800px){
+  
+h1{
+    font: bold 4.236rem 'Droid Serif', 'more font stack stuff', serif;
+    text-align: center;
+    
+}
+h2{
+    font: bold 2.618rem 'Droid Serif', 'more font stack stuff', serif;
+    text-align: center;
+}
+li, p, a{
+    font: bold 1.618rem 'Droid Sans', 'more font stack stuff', sans-serif;
+}
+pre, code, kbd{
+    font: normal 1.0rem 'Droid Sans Mono', 'more font stack stuff', 
+}
+    
+    .wrapper{
+        width: 100%;
+        margin: 0 auto;
+    }
+    header{
+        width: 100%;
+        background-image: url("https://unsplash.it/1400/300?image=1074");
+        background-position: center;
+        height: 200px;
+
+    }
+    nav{
+        width: 90%;
+    }
+    nav>ul{
+        width: 100%;
+    }
+    nav li{
+        width: 20%;
+        list-style-type:none;
+        display: inline-block;
+        float: left;
+    
+    }
+    nav a,
+    nav a:link,
+    nav a:visited{
+        display: block;
+        font: bold 1.618rem 'Droid Sans', 'more font stack stuff', sans-serif;
+        text-align: center;
+    }
+    nav a:active,
+    nav a:focus,
+    nav a:hover{
+
+    }
+    main{
+        width: 90%;
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    .col{
+        float: left;
+        width: 50%;
+        padding-left:15px;
+        
+        
+    }
+    .col img{
+        width: 60%;
+        height: 150px;
+        max-width: 100%;
+        background-color: azure;
+        background-image: url("https://unsplash.it/1400/300?image=1069");
+        float: left;
+        background-position: center;
+    }
+    footer{
+        width: 90%;
+    }
+}
+
+
+/*    ------------------ THIS IS 800PX 1200PX ---------*/
+@media screen and (min-width: 800px) and (max-width: 1200px){
+h1{
+    font: bold 4.236rem 'Droid Serif', 'more font stack stuff', serif;
+    text-align: center;
+    
+}
+h2{
+    font: bold 2.618rem 'Droid Serif', 'more font stack stuff', serif;
+    text-align: center;
+}
+li, p, a{
+    font: bold 1.618rem 'Droid Sans', 'more font stack stuff', sans-serif;
+}
+pre, code, kbd{
+    font: normal 1.0rem 'Droid Sans Mono', 'more font stack stuff', 
+}
+    
+    
+    .wrapper{
+        width: 100%;
+        margin: 0 auto;
+    }
+    header{
+        width: 100%;
+        background-image: url("https://unsplash.it/1400/300?image=1074");
+        background-position: center;
+        height: 200px;
+
+    }
+    nav{
+        width: 100%;
+    }
+    nav>ul{
+        width: 100%;
+    }
+    nav li{
+        width: 20%;
+        list-style-type:none;
+        display: inline-block;
+        float: left;
+
+    }
+    nav a,
+    nav a:link,
+    nav a:visited{
+        display: block;
+        font: bold 1.618rem 'Droid Sans', 'more font stack stuff', sans-serif;
+        text-align: center;
+    }
+    nav a:active,
+    nav a:focus,
+    nav a:hover{
+
+    }
+    main{
+        width: 90%;
+    }
+    .col{
+        float: left;
+        width: 50%;
+        padding-left:20px;
+    }
+    .col img{
+        width: 50%;
+        height: 150px;
+        max-width: 100%;
+        background-color: azure;
+        background-image: url("https://unsplash.it/400/300?image=1069");
+        float: left;
+        background-position: left;
+    }
+    footer{
+        width: 100%;
+        float: left;
+    }
+}
+@media screen and (min-width: 1200px){
+    h1{
+    font: bold 4.236rem 'Droid Serif', 'more font stack stuff', serif;
+    text-align: center;
+    
+}
+h2{
+    font: bold 2.618rem 'Droid Serif', 'more font stack stuff', serif;
+    text-align: center;
+}
+li, p, a{
+    font: bold 1.618rem 'Droid Sans', 'more font stack stuff', sans-serif;
+}
+pre, code, kbd{
+    font: normal 1.0rem 'Droid Sans Mono', 'more font stack stuff', 
+}
+    
+    .wrapper{
+        width: 100%;
+        margin: 0 auto;
+    }
+    header{
+        width: 100%;
+        background-image: url("https://unsplash.it/1400/300?image=1074");
+        background-position: center;
+        height: 200px;
+
+    }
+    nav{
+        width: 30%;
+        float: left;
+    }
+    nav>ul{
+        width: 100%;
+    }
+    nav li{
+        width: 100%;
+        list-style-type:none;
+        display: inline-block;
+        float: left;
+    
+    }
+    nav a,
+    nav a:link,
+    nav a:visited{
+        display: block;
+        font: bold 1.618rem 'Droid Sans', 'more font stack stuff', sans-serif;
+        text-align: center;
+    }
+    nav a:active,
+    nav a:focus,
+    nav a:hover{
+
+    }
+    main{
+        width: 70%;
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    .col{
+        float: left;
+        width: 50%;
+        padding-left:20px;
+        
+    }
+    .col img{
+        width: 55%;
+        height: 150px;
+        max-width: 100%;
+        background-color: azure;
+        background-image: url("https://unsplash.it/1400/300?image=1069");
+        float: left;
+        background-position: center;
+    }
+    footer{
+        width: 100%;
+    }
+    
+}
